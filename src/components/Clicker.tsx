@@ -6,8 +6,8 @@ const Clicker = () => {
         <div className={styles}>
             <div className={styles.bord}>
                 <div className={styles.count}>
-                    <p>Count</p>
-                    <p>{count}</p>
+                    <h1>Count</h1>
+                    <h2>{count}</h2>
                 </div>
             </div>
         </div>
