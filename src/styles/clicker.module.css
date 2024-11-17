@@ -3,3 +3,9 @@
     font-weight: 300;
     font-style: normal;
 }
+
+.bord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
