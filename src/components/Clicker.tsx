@@ -8,6 +8,8 @@ const Clicker = () => {
                 <div className={styles.count}>
                     <h1>Count</h1>
                     <h2>{count}</h2>
+                    <button>+</button>
+                    <button>-</button>
                 </div>
             </div>
         </div>
