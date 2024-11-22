@@ -10,7 +10,6 @@ const Clicker = () => {
         <div className={styles}>
             <div className={styles.bord}>
                 <div className={styles.count}>
-                    <h1>Count</h1>
                     <div className={styles.center}>
                         <h2>{count}</h2>
                     </div>
