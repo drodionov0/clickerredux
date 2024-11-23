@@ -13,7 +13,6 @@ const Clicker = () => {
                     <div className={styles.center}>
                         <h2>{count}</h2>
                     </div>
-
                     <div className={styles.center}>
                         <button onClick={() => dispatch(increment())} className={styles.buttonstyle}>+</button>
                         <button onClick={() => dispatch(decrement())} className={styles.buttonstyle}>-</button>
