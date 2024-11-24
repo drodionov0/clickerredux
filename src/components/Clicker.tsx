@@ -3,6 +3,7 @@ import styles from '../styles/clicker.module.css'
 import { increment, decrement } from '../action/CounterAction';
 
 const Clicker = () => {
+    
     const dispatch = useDispatch()
     const count:any = useSelector((state) => state);
 
