@@ -7,6 +7,7 @@ const Clicker = () => {
     const dispatch = useDispatch()
     const count:any = useSelector((state) => state);
 
+    
     return(
         <div className={styles}>
             <div className={styles.bord}>
